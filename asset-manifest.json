@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chrome_extension/static/css/main.9bc1d18f.css",
-    "main.js": "/chrome_extension/static/js/main.49579452.js",
+    "main.js": "/chrome_extension/static/js/main.0464b5f1.js",
     "static/js/787.da52b662.chunk.js": "/chrome_extension/static/js/787.da52b662.chunk.js",
     "index.html": "/chrome_extension/index.html",
     "main.9bc1d18f.css.map": "/chrome_extension/static/css/main.9bc1d18f.css.map",
-    "main.49579452.js.map": "/chrome_extension/static/js/main.49579452.js.map",
+    "main.0464b5f1.js.map": "/chrome_extension/static/js/main.0464b5f1.js.map",
     "787.da52b662.chunk.js.map": "/chrome_extension/static/js/787.da52b662.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bc1d18f.css",
-    "static/js/main.49579452.js"
+    "static/js/main.0464b5f1.js"
   ]
 }
