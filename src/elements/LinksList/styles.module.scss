@@ -1,0 +1,123 @@
+.dragDropField {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+
+    &__dropZone {
+        width: 90%;
+        margin: auto;
+        height: 20vh;
+        background-color: rgb(67, 82, 90);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+
+        &Active {
+            background-color: rgb(77, 128, 155);
+            box-shadow: 0 0 15px rgb(67, 82, 90) inset;
+
+            > span {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.linksList {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    background-color: rgb(29, 62, 78, 0.64);
+    border-radius: 10px;
+    overflow: auto;
+
+    > div {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        &::-webkit-scrollbar {
+            width: 2px;
+            background-color: rgb(67, 82, 90, 0.8);
+        }
+    
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            background-color: #fff;
+    
+            &:hover {
+                background-color: #9ab4fa;
+            }
+        }
+    }
+
+    &Empty {
+        height: 20vh;
+        min-height: auto;
+
+        &__text {
+            margin: auto;
+            text-align: center;
+            color: #00ffdc;
+        }
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 10px auto;
+        padding: 5px 0;
+        background-color: rgb(196, 209, 216);
+        border-radius: 10px;
+        font-size: 16px;
+
+        > a {
+            display: block;
+            cursor: pointer;
+            text-decoration: none;
+            color: #000;
+            margin-left: 10px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        > span {
+            display: block;
+            color: #000;
+            margin-left: 10px;
+        }
+
+        &_btnWrap {
+            > span {
+                cursor: pointer;
+            }
+        }
+    }
+
+    @media screen and (min-width: 380px) and (max-width: 900px) {
+        max-height: 20vh;
+        min-height: 20vh;
+    }
+
+    @media screen and (max-width: 500px) {
+        max-height: 27vh;
+        min-height: 20vh;
+    }
+
+    @media screen and (min-width: 1024px) {
+        max-height: 27vh;
+    }
+}

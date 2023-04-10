@@ -1,0 +1,46 @@
+.pocketBlock {
+    display: flex;
+    flex-direction: column;
+    // height: 25vh;
+    margin: 20px 0;
+
+    &__title {
+        margin: 0 5%;
+    }
+
+    &__inputWrap {
+        width: 90%;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_input {
+            width: calc(100% - 70px);
+            height: 30px;
+            outline-width: 0;
+            border-radius: 10px;
+            border: 1px solid rgb(67, 82, 90);
+            padding-left: 10px;
+        }
+
+        &_approveBtn {
+            cursor: pointer;
+            height: fit-content;
+            width: fit-content;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            position: relative;
+
+            > svg {
+                position: relative;
+                top: 2px;
+                left: 0.5px;
+            }
+
+            &:hover {
+                border-color: #6eddb3;
+            }
+        }
+    }
+}

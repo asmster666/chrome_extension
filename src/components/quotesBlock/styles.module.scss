@@ -1,0 +1,19 @@
+.quoteBlock {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto 0;
+    position: relative;
+    bottom: 0;
+    padding-bottom: 20px;
+
+    &__quote {
+        font-style: italic;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__author {
+        text-align: right;
+    }
+}

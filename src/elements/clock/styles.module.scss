@@ -1,0 +1,16 @@
+.clock {
+    text-align: center;
+    color: #00ffdc;
+
+    &Time {
+        font-size: 50px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    &Date {
+        font-size: 18px;
+        margin: 0 auto;
+    }
+}
