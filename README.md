@@ -1,5 +1,5 @@
 # chrome_extension
-Chrome Extension
+Chrome Extension (https://asmster666.github.io/chrome_extension/)
 
 It's my first chrome extension based on React (Ts) SPA. There are 3 blocks: 
 1) Current time and date (using enough bright colour). It is convinient to use as timer for whatever reason or just as a clock
